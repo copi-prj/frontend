@@ -19,3 +19,18 @@ assignees: ""
 > 예상했던 정상적인 결과가 어떤 것이었는지 설명해주세요
 
 ## 참고할만한 자료(선택)
+=======
+title: ''
+labels: 'Status: To Do, Priority: Medium, Type: Bugfix/Function, Type: Bugfix/UI'
+assignees: ''
+---
+
+# 발생 일시
+
+# 발생 위치
+
+# 증상
+
+# 재현 방법
+
+# 스크린샷
