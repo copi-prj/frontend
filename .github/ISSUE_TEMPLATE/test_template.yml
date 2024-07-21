@@ -1,4 +1,4 @@
-name: Test Template
+name: ✅ Test Template
 description: 새로운 테스트 케이스를 작성할 때 이 템플릿을 사용하세요.
 title: "[Test] "
 labels: ["✅ Test"]
