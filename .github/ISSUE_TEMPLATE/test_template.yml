@@ -1,68 +1,40 @@
 name: 테스트 케이스
 description: 새로운 테스트 케이스를 작성할 때 이 템플릿을 사용하세요.
-title: "[TEST] "
+title: "[Test] "
 labels: ["✅ Test"]
-assignees: ["330sum", "lkdcode"]
+assignees: ""
 body:
   - type: input
-    id: test_title
+    id: text1
     attributes:
-      label: 테스트 제목
-      description: 테스트 케이스의 제목을 작성하세요.
-      placeholder: 테스트 제목
-    validations:
-      required: true
-
-  - type: textarea
-    id: test_description
-    attributes:
-      label: 테스트 설명
-      description: 테스트 케이스에 대한 간략한 설명을 작성하세요.
+      label: ⭐️ 테스트 설명
+      description: 어떤 테스트인지 자세한 설명을 제공하세요.
       placeholder: 테스트 설명
     validations:
       required: true
 
   - type: textarea
-    id: preconditions
+    id: text2
     attributes:
-      label: 사전 조건
-      description: 테스트를 수행하기 전에 충족해야 하는 사전 조건을 작성하세요.
-      placeholder: 사전 조건
+      label: 📋 체크 리스트
+      description: 테스트에 대한 계획을 작성해 주세요.
+      placeholder: 테스트 계획 작성 (제한 없음!)
+      value: |
+        > - [ ] 🧪
+        > - [ ] 🧪
+        > - [ ] 🧪
+        > - [ ] 🧪
+        > - [ ] 🧪
     validations:
       required: true
 
-  - type: textarea
-    id: steps
+  - type: markdown
     attributes:
-      label: 테스트 단계
-      description: 테스트를 수행하는 단계별 절차를 작성하세요.
-      placeholder: 단계별 절차
-    validations:
-      required: true
+      value: |
+        ### Test 이슈 발행 체크리스트
+        아래의 체크리스트를 확인해 주세요!
 
-  - type: textarea
-    id: expected_result
-    attributes:
-      label: 예상 결과
-      description: 테스트가 성공했을 때 예상되는 결과를 작성하세요.
-      placeholder: 예상 결과
-    validations:
-      required: true
-
-  - type: textarea
-    id: actual_result
-    attributes:
-      label: 실제 결과
-      description: 테스트를 수행한 후 실제 결과를 작성하세요.
-      placeholder: 실제 결과
-    validations:
-      required: true
-
-  - type: textarea
-    id: additional_info
-    attributes:
-      label: 추가 정보
-      description: 테스트 케이스와 관련된 추가 정보를 작성하세요.
-      placeholder: 추가 정보
-    validations:
-      required: false
+        - [x] 중복된 테스트가 있나요?
+        - [x] Given-When-Then 의 형식을 따르도록 진행했나요?
+        - [x] 테스트와 동시에 리팩터링도 시도하셨나요?
+        - [x] 견고한 소프트웨어 구축에 한 걸음 다가가셨나요?
