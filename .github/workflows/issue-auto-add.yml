@@ -12,10 +12,4 @@ jobs:
         uses: actions-ecosystem/action-add-project-card@v1
         with:
           project_name: "sonkkot-test"
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          column_name: "To do" # 프로젝트 내의 컬럼 이름을 정확히 입력하세요
-      - name: Add milestone to issue
-        uses: kentaro-m/issue-milestone-assigner@v2.0.1
-        with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          milestone: "📍 일반 로그인 마일스톤"
+          column_name: "Todo" # 프로젝트 내의 컬럼 이름을 정확히 입력하세요
