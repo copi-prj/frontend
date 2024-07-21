@@ -1,4 +1,4 @@
-name: Bug reporttttt
+name: Bug report3
 description: Create a report to help us improve
 title: "[BUG] "
 labels: ["💥 Bug"]

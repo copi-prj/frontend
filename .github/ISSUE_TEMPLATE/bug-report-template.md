@@ -1,5 +1,5 @@
 ---
-name: Bug Report Template
+name: Bug Report Template2
 about: 버그 리포트 템플릿입니다.
 title: "[BUG] "
 labels: ["💥 Bug"]

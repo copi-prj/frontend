@@ -1,5 +1,5 @@
 ---
-name: Feature Template
+name: Feature Template1
 about: 개발 구현 템플릿입니다.
 title: "[Feature] "
 labels: ["🌈 Feature"]
