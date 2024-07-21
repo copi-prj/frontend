@@ -3,7 +3,7 @@ name: PR Template
 about: Pull Requests 템플릿입니다.
 title: ''
 labels: 'Status: To Do, Priority: Medium, Type: Bugfix/Function, Type: Bugfix/UI'
-assignees: ''
+assignees: ["330sum", "lkdcode"]
 ---
 
 ## #️⃣연관된 이슈

@@ -3,7 +3,7 @@ name: Bug Report Template
 about: 버그 리포트 템플릿입니다.
 title: "[BUG] "
 labels: ["💥 Bug"]
-assignees: ""
+assignees: ["330sum", "lkdcode"]
 ---
 
 ## 🐞어떤 버그인가요?

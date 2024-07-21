@@ -3,7 +3,7 @@ name: Feature Template
 about: 개발 구현 템플릿입니다.
 title: "[Feature] "
 labels: ["🌈 Feature"]
-assignees: ""
+assignees: ["YOUR_GITHUB_USERNAME"]
 ---
 
 ## 💡어떤 기능인가요?
