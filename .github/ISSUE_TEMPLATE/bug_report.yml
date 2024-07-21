@@ -1,5 +1,5 @@
-name: Bug report
-description: Use this template for reporting bugs.
+name: Bug Report Template
+description: 버그를 리포트 템플릿입니다.
 title: "[BUG] "
 labels: ["💥 Bug"]
 assignees: ["330sum", "lkdcode"]
@@ -7,58 +7,68 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        버그 리포트를 작성해 주셔서 감사합니다!
 
   - type: input
     id: title
     attributes:
-      label: Short Summary
-      description: Provide a short summary of the bug.
-      placeholder: Bug summary
+      label: 짧은 요약
+      description: 버그에 대한 짧은 요약을 제공하세요.
+      placeholder: 버그 요약
     validations:
       required: true
 
   - type: textarea
     id: description
     attributes:
-      label: Description
-      description: Provide a detailed description of the bug.
-      placeholder: Describe the bug in detail.
+      label: 설명
+      description: 버그에 대한 자세한 설명을 제공하세요.
+      placeholder: 버그를 자세히 설명하세요.
     validations:
       required: true
 
   - type: textarea
     id: steps
     attributes:
-      label: Steps to Reproduce
-      description: Provide the steps to reproduce the bug.
-      placeholder: Step-by-step instructions to reproduce the bug.
+      label: 재현 방법
+      description: 버그를 재현하는 방법을 제공하세요.
+      placeholder: 버그를 재현하는 단계별 설명
     validations:
       required: true
 
   - type: textarea
     id: expected
     attributes:
-      label: Expected Behavior
-      description: Describe what you expected to happen.
-      placeholder: What did you expect to happen?
+      label: 예상되는 동작
+      description: 기대했던 동작을 설명하세요.
+      placeholder: 기대했던 동작
     validations:
       required: true
 
   - type: textarea
     id: actual
     attributes:
-      label: Actual Behavior
-      description: Describe what actually happened.
-      placeholder: What actually happened?
+      label: 실제 동작
+      description: 실제로 발생한 동작을 설명하세요.
+      placeholder: 실제로 발생한 동작
     validations:
       required: true
 
   - type: input
     id: environment
     attributes:
-      label: Environment
-      description: Provide details about your environment (OS, software version, etc.).
-      placeholder: Environment details
+      label: 환경
+      description: 운영 체제, 소프트웨어 버전 등 환경에 대한 세부 정보를 제공하세요.
+      placeholder: 환경 세부 정보
     validations:
       required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ### 추가 정보
+        아래의 체크리스트를 확인해 주세요:
+
+        - [ ] 버그가 최신 버전에서 발생했나요?
+        - [ ] 이전에 동일한 문제가 보고되었나요?
+        - [ ] 문제를 재현할 수 있는 최소한의 코드가 포함되어 있나요?
