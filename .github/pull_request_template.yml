@@ -1,8 +1,8 @@
 ---
 name: PR 템플릿
-description: 새로운 Pull Request를 제출할 때 이 템플릿을 사용하세요.
+about: 새로운 Pull Request를 제출할 때 이 템플릿을 사용하세요.
 title: "[PR] "
-labels: ["PR"]
+labels: ["🚩 Review"]
 assignees: ["330sum", "lkdcode"]
 ---
 
