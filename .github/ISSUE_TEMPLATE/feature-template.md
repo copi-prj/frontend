@@ -2,7 +2,7 @@
 name: Feature Template1
 about: 개발 구현 템플릿입니다.
 title: "[Feature] "
-labels: ["🌈 Feature"]
+labels: ["✨ Feature"]
 assignees: ["YOUR_GITHUB_USERNAME"]
 ---
 

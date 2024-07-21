@@ -1,0 +1,68 @@
+name: 테스트 케이스
+description: 새로운 테스트 케이스를 작성할 때 이 템플릿을 사용하세요.
+title: "[TEST] "
+labels: ["✅ Test"]
+assignees: ["330sum", "lkdcode"]
+body:
+  - type: input
+    id: test_title
+    attributes:
+      label: 테스트 제목
+      description: 테스트 케이스의 제목을 작성하세요.
+      placeholder: 테스트 제목
+    validations:
+      required: true
+
+  - type: textarea
+    id: test_description
+    attributes:
+      label: 테스트 설명
+      description: 테스트 케이스에 대한 간략한 설명을 작성하세요.
+      placeholder: 테스트 설명
+    validations:
+      required: true
+
+  - type: textarea
+    id: preconditions
+    attributes:
+      label: 사전 조건
+      description: 테스트를 수행하기 전에 충족해야 하는 사전 조건을 작성하세요.
+      placeholder: 사전 조건
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 테스트 단계
+      description: 테스트를 수행하는 단계별 절차를 작성하세요.
+      placeholder: 단계별 절차
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected_result
+    attributes:
+      label: 예상 결과
+      description: 테스트가 성공했을 때 예상되는 결과를 작성하세요.
+      placeholder: 예상 결과
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual_result
+    attributes:
+      label: 실제 결과
+      description: 테스트를 수행한 후 실제 결과를 작성하세요.
+      placeholder: 실제 결과
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional_info
+    attributes:
+      label: 추가 정보
+      description: 테스트 케이스와 관련된 추가 정보를 작성하세요.
+      placeholder: 추가 정보
+    validations:
+      required: false
